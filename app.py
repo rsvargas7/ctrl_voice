@@ -31,7 +31,7 @@ client1.on_message = on_message
 st.title("plataformas de interacción multicanal")
 st.subheader("comando vocal")
 
-image = Image.open('voice_ctrl.jpg')
+image = Image.open('M.jpg')
 
 st.image(image, width=200)
 
