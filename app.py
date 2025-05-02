@@ -12,7 +12,7 @@ from gtts import gTTS
 from googletrans import Translator
 
 def on_publish(client,userdata,result):             #create function for callback
-    print("el dato ha sido publicado \n")
+    print("la información ha sido divulgada \n")
     pass
 
 def on_message(client, userdata, message):
@@ -28,8 +28,8 @@ client1.on_message = on_message
 
 
 
-st.title("INTERFACES MULTIMODALES")
-st.subheader("CONTROL POR VOZ")
+st.title("plataformas de interacción multicanal")
+st.subheader("comando vocal")
 
 image = Image.open('voice_ctrl.jpg')
 
@@ -38,7 +38,7 @@ st.image(image, width=200)
 
 
 
-st.write("Toca el Botón y habla ")
+st.write("Presiona el botón para hablar ")
 
 stt_button = Button(label=" Inicio ", width=200)
 
